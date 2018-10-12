@@ -1,18 +1,26 @@
-<view bindtap='xqin'  data-id='{{item.x_id}}' class='liebiao' wx:for="{{xiaoshuo}}" wx:key="{{item.id}}">
-  <van-card
-    title="{{item.title}}"
-  >
-    <view slot="thumb">
-     <image class='tupian' mode="aspectFill" src="{{item.x_fengmian}}"></image>
+<van-tabs active="{{ active }}">
+  <van-tab title="书架">
+    <view bindtap='xqin'  data-id='{{item.x_id}}' class='liebiao' wx:for="{{xiaoshuo}}" wx:key="{{item.id}}">
+      <van-card
+        title="{{item.title}}"
+      >
+        <view slot="thumb">
+        <image class='tupian' mode="aspectFill" src="{{item.x_fengmian}}"></image>
+        </view>
+        <view slot="title">
+          <text>{{item.x_name}}</text>
+        </view>
+        <view slot="desc">
+          <text class='txt'>{{item.jianjie}}</text>
+        </view>
+        <view slot="footer">
+        <text decode="{{true}}" class='txt2'>{{item.zuozhe}}&nbsp;&nbsp;&nbsp;&nbsp;{{item.zishu}}字</text>
+        </view>
+      </van-card>
     </view>
-    <view slot="title">
-      <text>{{item.x_name}}</text>
-    </view>
-    <view slot="desc">
-      <text class='txt'>{{item.jianjie}}</text>
-    </view>
-    <view slot="footer">
-     <text decode="{{true}}" class='txt2'>{{item.zuozhe}}&nbsp;&nbsp;&nbsp;&nbsp;{{item.zishu}}字</text>
-    </view>
-   </van-card>
-</view>
+  </van-tab>
+  <van-tab title="漫画架">
+    开发中
+  </van-tab>
+</van-tabs>
+
