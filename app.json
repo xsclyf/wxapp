@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/user",
+    "pages/x_xxi/x_xxi",
+    "pages/x_liebiao/x_liebiao",
+    "pages/xiaoshuo/xiaoshuo",
+    "pages/x_neirong/x_neirong",
+    "pages/ss/ss",
+    "pages/gy/gy"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#808080",
+    "navigationBarTitleText": "辰雪",
+    "navigationBarTextStyle":"white"
+  },
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "书架"
+        },
+        {
+          "pagePath": "pages/xiaoshuo/xiaoshuo",
+          "text": "小说"
+        },
+        {
+          "pagePath": "pages/ss/ss",
+          "text": "搜索"
+        },
+        {
+          "pagePath": "pages/user/user",
+          "text": "个人中心"
+        }
+      ]
+    }
+
+
+
+}

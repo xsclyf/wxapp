@@ -1,0 +1,12 @@
+<!--pages/x_neirong/x_neirong.wxml-->
+<scroll-view>
+    <view data-id='{{neirong.ids}}' style='padding:10px 10px 10px 10px'>
+      <text decode="{{true}}">{{neirong.x_neirong}}</text>
+    </view>
+
+  <view style='display: flex;flex-direction: row'>
+    <view bindtap='syz' class='anniu'><button>上一章</button></view>
+    <view bindtap='xyz' class='anniu'><button>下一章</button></view>
+  </view>
+
+</scroll-view>

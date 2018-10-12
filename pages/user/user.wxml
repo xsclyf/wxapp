@@ -1,0 +1,17 @@
+<view style='height: 170px;padding-top: 30px;background-color: #DCDCDC;'>
+    <view style='margin-left:120px;'>
+      <view class='touxiang'><image style='height: 100%;width: 100%;border-radius: 50%' src='{{tupian}}'></image></view>
+    </view>
+    <view class='name'>{{value}}</view>
+</view>
+<view>  
+  <van-cell-group>
+    <van-cell title="最近阅读" is-link />
+    <van-cell title="书架" is-link bind:click="shujia"/>
+    <van-cell title="漫画架(开发中）" is-link />
+    <van-cell title="关于" is-link 
+    bind:click="guanyu"
+    />
+  </van-cell-group>
+</view>
+<view style='text-align: center'><text>当前版本：v 1.21</text></view>

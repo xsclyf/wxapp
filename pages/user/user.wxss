@@ -1,0 +1,16 @@
+/* pages/user/user.wxss */
+.yx{
+  width: 40px;
+  height: 40px
+}
+.touxiang{
+  height: 80px;
+  width: 80px;
+  /* background-color: #FFFFFF;
+  text-align: center; */
+  border-radius: 40px
+}
+.name{
+  text-align: center;
+  margin-top: 20px
+}

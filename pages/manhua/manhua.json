@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "漫画",
+  
+  "usingComponents": {
+    "van-card": "/dist/card/index"
+  }
+}

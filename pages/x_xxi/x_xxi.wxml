@@ -1,0 +1,40 @@
+<!-- 这里是头部介绍框架 -->
+<scroll-view>
+  <view>
+    <view class='jskj' style='background-image: url("{{xiaoshuo.x_fengmian}}");'>
+      <van-row>
+        <van-col span="8">
+          <view class='tupian'><image class='tupian2' mode='aspectFill' src="{{xiaoshuo.x_fengmian}}"></image></view>
+        </van-col>
+        <van-col span="16">
+          <view style='background-color: #FFFFFF;opacity: 0.9;height: 100px;'>
+            <text>
+              {{xiaoshuo.x_name}}
+              {{xiaoshuo.zuozhe}}
+              {{xiaoshuo.zishu}}万字
+            </text>
+          </view>
+        </van-col>
+      </van-row>
+    </view>
+  </view>
+  <!-- 这里是下部介绍内容 -->
+  <view style='padding:10px 10px 10px 10px;height:110px'>
+    <text decode="{{true}}" class='jieshao'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{xiaoshuo.jianjie}}</text>
+  </view>
+  <!-- 按钮区域 -->
+  <view>
+    <van-row>
+      <van-col offset="5" span="7"><van-button type="default" bind:click="button_yuedu">开始阅读</van-button></van-col>
+      <van-col span="7"><van-button loading="{{button_jz}}" type="default" bind:click="{{button_leixing}}">{{button_title}}</van-button></van-col>
+    </van-row>
+  </view>
+  <!-- 最近更新列表区域 -->
+  <view>
+    <view class='mulu'><text style='font-size:12px;color: #A9A9A9;margin-right:100px'>最近更新：</text><text style='color: #A9A9A9;font-size:12px'>{{xiaoshuo.x_time}}</text></view>
+    <view bindtap='neirong' data-id='{{xiaoshuo.zhgx}}' class='mulu'><text>{{xiaoshuo.zjnr}}</text></view>
+  </view>
+  <view bindtap='mulu' style='margin:20px 10px 50px 10px'>
+    <button>章节目录(共{{xiaoshuo.jishu}}章节)</button>
+  </view>
+</scroll-view>

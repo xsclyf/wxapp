@@ -1,0 +1,26 @@
+ .liebiao{
+   margin-top:10rpx;
+   margin-bottom:10rpx;
+   }
+
+  .txt{
+  display: -webkit-box;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #A9A9A9
+}
+
+.txt2{
+  font-size: 11px
+}
+
+.tupian{
+  width: 80px;
+  height: 100px;
+}
+

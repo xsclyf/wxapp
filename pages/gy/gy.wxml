@@ -1,0 +1,7 @@
+<!--pages/gy/gy.wxml-->
+<view style='text-align: center'>
+  <text>桃夭\n</text>
+  <view class='one'><text>桃之夭夭，灼灼其华。桃之夭夭，有蕡其实。桃之夭夭，其叶蓁蓁。</text></view>
+  <view style='margin-top:20px'>送给我家那个爱看小说的媳妇儿的一个小礼物。</view>
+  <view style='margin-top:180px'>路人请移步他处。</view>
+</view>

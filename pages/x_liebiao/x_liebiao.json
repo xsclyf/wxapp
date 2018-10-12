@@ -1,0 +1,9 @@
+{
+
+  "navigationBarTitleText": "小说",
+
+    "usingComponents": {
+      "van-cell": "/dist/cell/index",
+      "van-cell-group": "/dist/cell-group/index"
+    }
+}

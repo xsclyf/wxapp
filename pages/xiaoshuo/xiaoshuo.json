@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "小说",
+  "enablePullDownRefresh":true,
+  "backgroundColor":"#808080",
+  "usingComponents": {
+    "van-card": "/dist/card/index",
+    "van-search": "/dist/search/index"
+  }
+}

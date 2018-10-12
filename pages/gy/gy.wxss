@@ -1,0 +1,7 @@
+/* pages/gy/gy.wxss */
+.one {
+    margin-left: 20px;  
+    height: 160px; 
+    writing-mode: vertical-lr; 
+    writing-mode: tb-lr;
+}  

@@ -1,0 +1,15 @@
+<view class='liebiao' wx:for="{{manhua}}">
+  <van-card
+    title="{{item.title}}"
+  >
+    <view slot="thumb">
+      <image class='tupian' mode="aspectFill" src="{{item.tupian}}"></image>
+    </view>
+    <view slot="desc">
+      <text class='txt'>{{item.jianjie}}</text>
+    </view>
+    <view slot="footer">
+    <text decode="{{true}}" class='txt2'>{{item.zuozhe}}&nbsp;&nbsp;&nbsp;&nbsp;</text>
+    </view>
+  </van-card>
+</view>

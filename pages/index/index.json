@@ -1,0 +1,9 @@
+{
+    "enablePullDownRefresh": true,
+    "usingComponents": {
+      "van-card": "/dist/card/index",
+      "van-panel": "/dist/panel/index",
+      "van-tab": "/dist/tab/index",
+      "van-tabs": "/dist/tabs/index"
+    }
+}

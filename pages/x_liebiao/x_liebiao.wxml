@@ -1,0 +1,6 @@
+<view class='kj'>
+  <view>共{{zjsl}}章</view>
+  <view wx:for="{{mulu}}" wx:key="{{id}}" data-id='{{item.x_zjid}}' bindtap='neirong' class='bk'>
+    <text class='jieshao'>{{index+1}}.{{item.x_zjnr}}</text>
+  </view>
+</view>

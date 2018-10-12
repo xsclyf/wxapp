@@ -1,0 +1,37 @@
+/* pages/x_xxi/x_xxi.wxss */
+/* 小说封面图片css */
+.tupian{
+  height: 100px;
+  text-align: center;
+  /* margin-left: 15px; */
+  background-color: #FFFFFF;
+  opacity: 0.9;
+}
+/* 小说背景图片css */
+.tupian2{
+  width: 75px;
+  height: 100px;
+  padding-left: 15px
+}
+/* 小说介绍头部尺寸 */
+.jskj{
+  padding-top:80px
+}
+/* 小说介绍内容text框架 */
+.jieshao{
+  display: -webkit-box;
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* text-align: center */
+}
+
+/* 最近更新目录 */
+.mulu{
+  padding-left: 20px;
+  margin-top:20px
+}

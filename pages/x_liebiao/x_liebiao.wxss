@@ -1,0 +1,27 @@
+/* pages/x_liebiao/x_liebiao.wxss */
+.zhangjie{
+  margin-left: 20px;
+  background-color: #A9A9A9
+}
+
+.bk{
+  height: 30px;
+  padding-top: 10px;
+  border-bottom: 1px solid rgb(207, 206, 206);
+}
+.jieshao{
+  display: -webkit-box;
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* text-align: center */
+}
+
+.kj{
+  padding:  10px 10px 10px 10px;
+  
+}
