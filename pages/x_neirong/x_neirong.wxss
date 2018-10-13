@@ -2,6 +2,5 @@
 .anniu{
   width: 100px;
   flex-flow: row;
-  margin-left: 40px
+  margin-left: 40px;
 }
-page{background-color:#C0C0C0;}

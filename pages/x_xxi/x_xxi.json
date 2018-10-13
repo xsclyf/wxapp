@@ -1,6 +1,8 @@
 {
 
   "navigationBarTitleText": "详情",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#808080",
 
     "usingComponents": {
       "van-row": "/dist/row/index",

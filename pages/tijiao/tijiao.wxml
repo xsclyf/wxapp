@@ -1,0 +1,11 @@
+<!--pages/tijiao/tijiao.wxml-->
+<view>
+  <van-cell-group>
+  <van-field
+    value="{{ value }}"
+    placeholder="输入小说的链接"
+    border="{{ false }}"
+  />
+</van-cell-group>
+  <van-button type="default">提交</van-button>
+</view>

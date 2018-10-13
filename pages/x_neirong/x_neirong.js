@@ -33,6 +33,12 @@ Page({
           wx.setNavigationBarTitle({
             title: '第' + res.data.ids + '章'
           })
+          wx.setStorage({
+            key: "yuedu_jl_" + that.data.xid,
+            data: [
+              { xid: that.data.xid, ml: that.data.xid + "_" + res.data.ids }
+            ],
+          })
         }
       })
       wx.pageScrollTo({
@@ -71,6 +77,12 @@ Page({
           wx.setNavigationBarTitle({
             title: '第' + res.data.ids + '章'
           })
+          wx.setStorage({
+            key: "yuedu_jl_" + that.data.xid,
+            data: [
+              { xid: that.data.xid, ml: that.data.xid + "_" + res.data.ids }
+            ],
+          })
         }
       })
       wx.pageScrollTo({
@@ -85,7 +97,6 @@ Page({
         confirmText: '好哒~'
       })
     }
-    
     // that.setData({ zjids: zjids })
   },
 
@@ -114,9 +125,14 @@ Page({
         wx.setNavigationBarTitle({
           title: '第' + res.data.ids + '章'
         })
+        wx.setStorage({
+          key: "yuedu_jl_" + that.data.xid,
+          data: [
+            { xid: that.data.xid, ml: that.data.xid + "_" + res.data.ids }
+          ],
+        })
       }
     })
-    
     // that.setData({shuzi: options.id})
   },
 

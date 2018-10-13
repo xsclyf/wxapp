@@ -11,7 +11,7 @@
             <text>
               {{xiaoshuo.x_name}}
               {{xiaoshuo.zuozhe}}
-              {{xiaoshuo.zishu}}万字
+              {{xiaoshuo.zishu}}字
             </text>
           </view>
         </van-col>
@@ -25,7 +25,7 @@
   <!-- 按钮区域 -->
   <view>
     <van-row>
-      <van-col offset="5" span="7"><van-button type="default" bind:click="button_yuedu">开始阅读</van-button></van-col>
+      <van-col offset="5" span="7"><van-button type="default" disabled="{{button_ydjl_ztai}}" bind:click="{{button_ydjl_leixin}}">{{button_ydjl_title}}</van-button></van-col>
       <van-col span="7"><van-button loading="{{button_jz}}" type="default" bind:click="{{button_leixing}}">{{button_title}}</van-button></van-col>
     </van-row>
   </view>

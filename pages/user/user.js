@@ -30,6 +30,23 @@ Page({
       url: '../index/index',
     })
   },
+  //跳转书籍提交页面
+  x_tijiao(event) {
+    wx.navigateTo({
+      url: '../tijiao/tijiao',
+    })
+  },
+  //清除缓存按钮
+  huancun(event) {
+    wx.clearStorage({
+      success: function (res) {
+        wx.showToast({
+          title: '清除成功',
+        })
+      },
+    })
+  },
+  
 
 
   /**
