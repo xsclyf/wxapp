@@ -7,6 +7,8 @@
     "pages/xiaoshuo/xiaoshuo",
     "pages/x_neirong/x_neirong",
     "pages/ss/ss",
+    "pages/manhua/manhua",
+    "pages/m_xxi/m_xxi",
     "pages/gy/gy"
   ],
   "window":{
@@ -26,8 +28,8 @@
           "text": "小说"
         },
         {
-          "pagePath": "pages/ss/ss",
-          "text": "搜索"
+          "pagePath": "pages/m_xxi/m_xxi",
+          "text": "漫画"
         },
         {
           "pagePath": "pages/user/user",
