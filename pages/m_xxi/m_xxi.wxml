@@ -1,2 +1,4 @@
 <!--pages/m_xxi/m_xxi.wxml-->
-<text>pages/m_xxi/m_xxi.wxml</text>
+<scroll-view>
+  <view wx:for="{{manhua}}"><image lazy-load="true" mode='widthFix' src='{{item.url}}'></image></view>
+</scroll-view>

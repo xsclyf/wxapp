@@ -5,7 +5,29 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    manhua:[
+      {
+        url:"http://image.xsclyf.cn/3/1/1.jpg"
+      },
+      {
+        url: "http://image.xsclyf.cn/3/1/2.jpg"
+      },
+      {
+        url: "http://image.xsclyf.cn/3/1/3.jpg"
+      },
+      {
+        url: "http://image.xsclyf.cn/3/1/4.jpg"
+      },
+      {
+        url: "http://image.xsclyf.cn/3/1/5.jpg"
+      },
+      {
+        url: "http://image.xsclyf.cn/3/1/6.jpg"
+      },
+      {
+        url: "http://image.xsclyf.cn/3/1/7.jpg"
+      }
+    ]
   },
 
   /**
