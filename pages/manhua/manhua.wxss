@@ -1,6 +1,5 @@
  .liebiao{
-   margin-top:10rpx;
-   margin-bottom:10rpx;
+   margin-bottom:30rpx;
    }
 
   .txt{
@@ -12,6 +11,7 @@
   -webkit-line-clamp: 2;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: #A9A9A9
 }
 
 .txt2{
@@ -21,4 +21,13 @@
 .tupian{
   width: 80px;
   height: 100px;
+}
+
+.daohang{
+  height: 25px;
+  background-color: #A9A9A9;
+  margin: auto;
+  text-align: right;
+  padding: 5px 10px 5px 5px;
+  margin-bottom: 5px
 }

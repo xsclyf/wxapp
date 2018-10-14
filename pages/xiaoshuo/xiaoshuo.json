@@ -4,6 +4,7 @@
   "backgroundColor":"#808080",
   "usingComponents": {
     "van-card": "/dist/card/index",
-    "van-search": "/dist/search/index"
+    "van-search": "/dist/search/index",
+    "van-icon": "/dist/icon/index"
   }
 }

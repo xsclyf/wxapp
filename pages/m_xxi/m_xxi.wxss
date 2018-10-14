@@ -1,1 +1,30 @@
 /* pages/m_xxi/m_xxi.wxss */
+
+ .txt{
+  display: -webkit-box;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  /* -webkit-line-clamp: 2; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #A9A9A9
+  }
+
+  .jieshao{
+  display: -webkit-box;
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* text-align: center */
+}
+.bk{
+  height: 30px;
+  padding-top: 10px;
+  border-bottom: 1px solid rgb(207, 206, 206);
+}

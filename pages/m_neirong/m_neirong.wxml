@@ -1,0 +1,4 @@
+<scroll-view> 
+  <view wx:for="{{manhua}}"><image lazy-load="true" mode='widthFix' src='{{item.m_neirong}}'></image></view> 
+</scroll-view>
+<view>上一话，下一话</view>

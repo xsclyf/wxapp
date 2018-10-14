@@ -1,5 +1,5 @@
-<view style='display:{{d_xianshizt}}'>
-  类型区域
+<view class='daohang'>
+  <van-icon  name="search" size='25px'/>
 </view>
 <view bindtap='xqin'  data-id='{{item.x_id}}' class='liebiao' wx:for="{{xiaoshuo}}" wx:key="{{item.id}}">
   <van-card

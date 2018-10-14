@@ -1,15 +1,10 @@
-<view class='liebiao' wx:for="{{manhua}}">
-  <van-card
-    title="{{item.title}}"
-  >
-    <view slot="thumb">
-      <image class='tupian' mode="aspectFill" src="{{item.tupian}}"></image>
-    </view>
-    <view slot="desc">
-      <text class='txt'>{{item.jianjie}}</text>
-    </view>
-    <view slot="footer">
-    <text decode="{{true}}" class='txt2'>{{item.zuozhe}}&nbsp;&nbsp;&nbsp;&nbsp;</text>
-    </view>
-  </van-card>
+<view class='daohang'>
+  <van-icon  name="search" size='25px'/>
 </view>
+<scroll-view>
+  <view bindtap='xqin' data-id='{{item.m_id}}' class='liebiao' wx:for="{{manhua}}" wx:key="{{item.id}}">
+      <view ><image mode='widthFix' src='{{item.fengmian}}'></image></view>
+      <view style='height:25px'><van-tag mark type="danger">{{item.leixin}}</van-tag><text style='font-size: 15px;'>  {{item.m_name}}</text></view>
+      <view><text class='txt'>{{item.jianjie}}</text></view>
+  </view>
+</scroll-view>

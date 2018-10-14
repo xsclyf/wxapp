@@ -2,6 +2,9 @@
   "navigationBarTitleText": "漫画",
   
   "usingComponents": {
-    "van-card": "/dist/card/index"
+    "van-icon": "/dist/icon/index",
+    "van-tag": "/dist/tag/index",
+    "van-cell": "/dist/cell/index",
+    "van-cell-group": "/dist/cell-group/index"
   }
 }

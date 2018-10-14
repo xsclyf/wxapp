@@ -9,6 +9,7 @@
     "pages/ss/ss",
     "pages/manhua/manhua",
     "pages/m_xxi/m_xxi",
+    "pages/m_neirong/m_neirong",
     "pages/gy/gy"
   ],
   "window":{
@@ -28,7 +29,7 @@
           "text": "小说"
         },
         {
-          "pagePath": "pages/m_xxi/m_xxi",
+          "pagePath": "pages/manhua/manhua",
           "text": "漫画"
         },
         {
