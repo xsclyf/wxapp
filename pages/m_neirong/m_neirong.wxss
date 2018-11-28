@@ -1,1 +1,9 @@
 /* pages/m_neirong/m_neirong.wxss */
+.an{
+  text-align: right;
+}
+.anniu{
+  width: 100px;
+  flex-flow: row;
+  margin-left: 40px;
+}

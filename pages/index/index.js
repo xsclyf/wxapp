@@ -6,6 +6,7 @@ Page({
    */
   data: {
     xiaoshuo: [],
+    manhua:[],
     user:'1'
   },
 
@@ -57,6 +58,18 @@ Page({
         })
       }
     })
+    wx.request({
+      url: 'https://php.xsclyf.cn/m_collect.php',
+      data: {
+        user: users,
+      },
+      success: function (res) {
+        console.log(res.data)
+        that.setData({
+          manhua: res.data
+        })
+      }
+    })
 
   },
 
@@ -66,6 +79,13 @@ Page({
     var ids = e.currentTarget.dataset.id;
     wx.navigateTo({
       url: '../x_xxi/x_xxi?id=' + ids,
+    })
+  },
+
+  xqin2: function (e) {
+    var ids = e.currentTarget.dataset.id;
+    wx.navigateTo({
+      url: '../m_xxi/m_xxi?m_id=' + ids,
     })
   },
 
@@ -114,13 +134,26 @@ Page({
         })
       }
     })
-    wx.stopPullDownRefresh({
-      success: function () {
-        wx.showToast({
-          title: '刷新成功',
+    wx.request({
+      url: 'https://php.xsclyf.cn/m_collect.php',
+      data: {
+        user: users,
+      },
+      success: function (res) {
+        console.log(res.data)
+        that.setData({
+          manhua: res.data
+        })
+        wx.stopPullDownRefresh({
+          success: function () {
+            wx.showToast({
+              title: '刷新成功',
+            })
+          }
         })
       }
     })
+    
   },
 
   /**

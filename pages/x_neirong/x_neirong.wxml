@@ -7,7 +7,6 @@
   <view style='display: flex;flex-direction: row'>
     <view class='anniu'><van-button type="default" bind:click="syz">上一章</van-button></view>
     <view class='anniu'><van-button type="default" bind:click="xyz">下一章</van-button></view>
-    
   </view>
 
 </scroll-view>

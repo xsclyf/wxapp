@@ -1,5 +1,6 @@
 {
   "navigationBarTitleText": "漫画",
+  "enablePullDownRefresh": true,
   
   "usingComponents": {
     "van-icon": "/dist/icon/index",

@@ -20,7 +20,13 @@
     </view>
   </van-tab>
   <van-tab title="漫画架">
-    开发中
+    <scroll-view>
+      <view bindtap='xqin2' data-id='{{item.m_id}}' class='liebiao' wx:for="{{manhua}}" wx:key="{{item.id}}">
+        <view ><image mode='widthFix' src='{{item.fengmian}}'></image></view>
+        <view style='height:25px'><van-tag mark type="danger">{{item.leixin}}</van-tag><text style='font-size: 15px;'>  {{item.m_name}}</text></view>
+        <view><text class='txt'>{{item.jianjie}}</text></view>
+      </view>
+    </scroll-view>
   </van-tab>
 </van-tabs>
 

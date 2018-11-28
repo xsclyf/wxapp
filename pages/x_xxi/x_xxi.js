@@ -39,9 +39,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var that = this;
-    //开始阅读、继续阅读按钮事件
-    
+    var that = this;    
     // console.log(options.id)
     wx.request({
       url: 'https://php.xsclyf.cn/x_xxi.php',
@@ -98,9 +96,7 @@ Page({
         })
       }
     }, 1000)
-    
-    
-    
+
   },
 
   // 开始阅读按钮事件

@@ -78,7 +78,23 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-
+    var that = this;
+    wx.request({
+      url: 'https://php.xsclyf.cn/m_list.php',
+      success: function (res) {
+        console.log(res.data)
+        that.setData({
+          manhua: res.data
+        })
+        wx.stopPullDownRefresh({
+          success: function () {
+            wx.showToast({
+              title: '刷新成功',
+            })
+          }
+        })
+      }
+    })
   },
 
   /**

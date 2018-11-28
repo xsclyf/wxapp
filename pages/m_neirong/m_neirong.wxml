@@ -1,4 +1,9 @@
 <scroll-view> 
   <view wx:for="{{manhua}}"><image lazy-load="true" mode='widthFix' src='{{item.m_neirong}}'></image></view> 
 </scroll-view>
-<view>上一话，下一话</view>
+<view>
+  <view style='display: flex;flex-direction: row'>
+    <view class='anniu'><van-button type="default" bind:click="syh">上一话</van-button></view>
+    <view class='anniu'><van-button type="default" bind:click="xyh">下一话</van-button></view>
+  </view>
+</view>
